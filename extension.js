@@ -40,8 +40,8 @@ function playSound(audioPath) {
  */
 function activate(context) {
     // Audio file paths — must match actual filenames in /media
-    const syntaxAudio = path.join(context.extensionPath, 'media', 'polayadi-mone.mp3');
-    const terminalAudio = path.join(context.extensionPath, 'media', 'ayooo-sayip-op.mp3');
+    const syntaxAudio = path.join(context.extensionPath, 'media', 'polayadi-mone.wav');
+    const terminalAudio = path.join(context.extensionPath, 'media', 'ayooo-sayip-op.wav');
 
     // --- Command: polayaadi.helloWorld ---
     const helloCmd = vscode.commands.registerCommand('polayaadi.helloWorld', () => {
